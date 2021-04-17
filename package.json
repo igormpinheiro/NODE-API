@@ -4,7 +4,8 @@
   "description": "Que os jogos começem!!!",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
