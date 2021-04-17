@@ -13,3 +13,13 @@ npm i -D typescript @types/node
 
  instalando eslint --Manter alguns padrões/regras na codificação do JS/TS
  npm install --save-dev eslint@7 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@4 eslint-config-standard-with-typescript 
+
+cria e configura .eslint.json e .eslintignore
+
+instalando o Husky - adicionar 'hooks' que permite rodar comandos antes do commit
+npm i -D husky
+
+Instalando o lint-staged - para que os commit com o husk / eslint não fiquem lentos, então roda scripts apenas nos arquivos que estão na stage-area
+
+npm i -D lint-staged
+
