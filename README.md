@@ -23,3 +23,9 @@ Instalando o lint-staged - para que os commit com o husk / eslint não fiquem le
 
 npm i -D lint-staged
 
+Configura o arquivo .lintstagedrc.json e huskrc.json
+
+Instala o jest para TDD
+npm i -D jest @types/jest ts-jest
+
+inicia o jest
